@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIT Chennai Fees Calculator</title>
+  <link rel="stylesheet" href="../index.css">
+</head>
+
+<body>
+  <header>
+    <h1>VIT Chennai Fees Calculator</h1>
+  </header>
+  <main>
+    <form id="feesform">
+      <label for="group"><a href="../group.html">Group</a> :</label>
+      <select name="group" id="group">
+        <option value="a">A</option>
+        <option value="b">B</option>
+      </select>
+      <br><br>
+      <label for="catagory">Fee Catagory:</label>
+      <select name="catagory" id="catagory">
+        <option value="a">1</option>
+        <option value="b">2</option>
+        <option value="c">3</option>
+        <option value="d">4</option>
+        <option value="e">5</option>
+      </select>
+      <br><br>
+      <label for="room">Room Type:</label>
+      <select name="room" id="room">
+        <option value="na">N/A</option>
+        <option value="2ac">2AC</option>
+        <option value="2nac">2NAC</option>
+        <option value="3ac">3AC</option>
+        <option value="3nac">3NAC</option>
+        <option value="4ac">4AC</option>
+        <option value="4nac">4NAC</option>
+        <option value="6ac">6AC</option>
+        <option value="6nac">6NAC</option>
+      </select>
+      <br><br>
+      <label for="messcatagory">Mess Type:</label>
+      <select name="messcatagory" id="messcatagory">
+        <option value="na">N/A</option>
+        <option value="a">Veg Mess</option>
+        <option value="b">Non Veg Mess</option>
+        <option value="c">Special Mess</option>
+        <option value="d">Food Park</option>
+      </select>
+      <br><br>
+      <span>Amount of monthly Miscellaneous Expenses you might have: </span><input type="number" value:="miscellaneous" id="miscellaneous">
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+    <h2>Your Calculated Fees comes out to be: </h2>
+    <h3 id="totalfees"></h3>
+  </main>
+
+  <script src="../Js/chennai.js"></script>
+</body>
+
+</html>

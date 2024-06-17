@@ -1,0 +1,56 @@
+body {
+    font-family: Roboto, Arial;
+    margin: 0px;
+    background-color: #2F3237;
+    color: white;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main {
+    margin-left: 30px;
+    background-color: #3C3F44;
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
+
+select {
+    background-color: #2C2F33;
+    color: #FFFFFF;
+    border: 1px solid #23272A;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer;
+}
+
+select:hover {
+    border-color: #7289DA;
+}
+
+select option {
+    background-color: #2C2F33;
+    color: #FFFFFF;
+}
+
+input {
+    background-color: #2C2F33;
+    color: #FFFFFF;
+    border: 1px solid #23272A;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    cursor: pointer
+}
