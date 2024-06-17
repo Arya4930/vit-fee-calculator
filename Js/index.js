@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
         } else if (Branch == 'chennai') {
             window.location.href = "./branches/chennai.html"
         } else if (Branch == 'bhopal') {
-            window.location.href = "./branches/Bhopal.html"
+            window.location.href = "./branches/bhopal.html"
         } else if (Branch == 'AP') {
             window.location.href = "./branches/AP.html"
         }
