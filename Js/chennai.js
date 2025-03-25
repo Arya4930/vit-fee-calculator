@@ -52,9 +52,9 @@ document.addEventListener('DOMContentLoaded', function () {
         const SelectedMess = document.getElementById('messcatagory').value;
         total += (SelectedGroup == "a") ? a[SelectedCat] : b[SelectedCat];
         total += c[SelectedRoom] + d[SelectedMess] + Miscellaneous * 12;
-        totalfees.innerText = `1st Year: ₹${(total + hostelDeposit + 3000).toLocaleString()} ( ${(SelectedGroup == "a") ? a[SelectedCat] : b[SelectedCat]} + ${c[SelectedRoom]} + ${d[SelectedMess]} + ${Miscellaneous * 12} + 3000 ( Caution Deposit ) + ${hostelDeposit} ( Hostel Deposit ))
+        totalfees.innerText = `1st Year: ₹${(total + hostelDeposit + 3000).toLocaleString()} ( ${(SelectedGroup == "a") ? a[SelectedCat] : b[SelectedCat]} + ${c[SelectedRoom] + d[SelectedMess]} + ${Miscellaneous * 12} + 3000 ( Caution Deposit ) + ${hostelDeposit} ( Hostel Deposit ))
         
-        2nd/3rd/4th Year: ₹${total.toLocaleString()} ( ${(SelectedGroup == "a") ? a[SelectedCat] : b[SelectedCat]} + ${c[SelectedRoom]} + ${d[SelectedMess]} + ${Miscellaneous * 12})
+        2nd/3rd/4th Year: ₹${total.toLocaleString()} ( ${(SelectedGroup == "a") ? a[SelectedCat] : b[SelectedCat]} + ${c[SelectedRoom] + d[SelectedMess]} + ${Miscellaneous * 12})
         
         Total of 4 Years: ₹${(total * 4 + 33000).toLocaleString()}`;
     });
